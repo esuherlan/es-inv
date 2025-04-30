@@ -2,12 +2,12 @@
 <html lang="en">
    <head>
     	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    	<title>AdminLTE | Dashboard v2</title>
+    	<title>EsInv | Dashboard</title>
     	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    	<meta name="title" content="AdminLTE | Dashboard v2" />
+    	<meta name="title" content="EsInv | Dashboard" />
     	<meta name="author" content="ColorlibHQ" />
-    	<meta name="description" content="AdminLTE is a Free Bootstrap 5 Admin Dashboard, 30 example pages using Vanilla JS."/>
-    	<meta name="keywords" content="bootstrap 5, bootstrap, bootstrap 5 admin dashboard, bootstrap 5 dashboard, bootstrap 5 charts, bootstrap 5 calendar, bootstrap 5 datepicker, bootstrap 5 tables, bootstrap 5 datatable, vanilla js datatable, colorlibhq, colorlibhq dashboard, colorlibhq admin dashboard"/>
+    	<meta name="description" content="EsInv"/>
+    	<meta name="keywords" content=""/>
     	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css" integrity="sha256-tXJfXfp6Ewt1ilPzLDtQnJV4hclT9XuaZUKyUvmyr+Q=" crossorigin="anonymous"/>
     	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.10.1/styles/overlayscrollbars.min.css" integrity="sha256-tZHrRjVqNSRyWg2wbppGnT833E/Ys0DHWGwT04GiqQg=" crossorigin="anonymous"/>
     	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" integrity="sha256-9kPW/n5nn53j4WMRYAxe9c1rCY96Oogo/MKSVdKzPmI=" crossorigin="anonymous"/>
@@ -57,7 +57,7 @@
 				<div class="sidebar-brand">
 					<a href="#" class="brand-link">
 						<img src="{{ asset('assets/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image opacity-75 shadow"/>
-						<span class="brand-text fw-light">AdminLTE 4</span>
+						<span class="brand-text fw-light">EsInv</span>
 					</a>
 				</div>
 				<div class="sidebar-wrapper">
@@ -68,6 +68,30 @@
 								<a href="#" class="nav-link">
 									<i class="nav-icon bi bi-speedometer"></i>
 									<p>Dashboard</p>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<i class="nav-icon bi bi-people-fill"></i>
+									<p>Users</p>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<i class="nav-icon bi bi-table"></i>
+									<p>Departments</p>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<i class="nav-icon bi bi-bag-fill"></i>
+									<p>Products</p>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<i class="nav-icon bi bi-archive"></i>
+									<p>Request of Products</p>
 								</a>
 							</li>
 						</ul>
